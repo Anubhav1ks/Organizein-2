@@ -1,0 +1,252 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3rem !important;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  /* background: white; */
+  background-image: -webkit-linear-gradient(90deg, #ffff 80%, #137AE1 20%);
+
+  height: fit-content !important;
+}
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  background-clip: padding-box;
+  padding: 1px !important;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00000073;
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 1px !important;
+}
+ 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* SCROLLBAR END */
+#go_top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #3683f0;
+  color: white;
+  height: 30px;
+  width: 30px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER SECTION */
+#header {
+  background: white;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+#header .logo {
+  margin-left: 1rem;
+  /* margin-bottom: 0; */
+  padding: 0 !important;
+  height: 50px;
+}
+#header .logo img {
+  margin: 0 !important;
+  height: 100%;
+  width: auto;
+}
+#header .icons {
+  display: flex;
+  gap: 1rem;
+  padding: 0 !important;
+  width: fit-content;
+  margin-right: 3rem;
+  /* margin-top: 1rem; */
+}
+#header .icons div {
+  border-radius: 50%;
+  /* background-color: #3683f0; */
+  /* color: white; */
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  cursor: pointer;
+}
+.btn{
+    font-size: revert;
+}
+.btn2{
+font-size: medium;    
+    width: 82%;
+
+}
+/* END HEADER */
+
+#main h2 {
+    font-size: x-large;
+    margin: 5%;
+}
+
+.flag{
+  height: 25%;
+  width: 35%;
+}
+.img{
+  width: 78%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+
+.box1 {
+    border-radius: 20px;
+    margin-left: 5%;
+    background: white;
+    width: 92%;
+    /* display: flex; */
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 2rem;
+}
+.left{
+    display: flex;
+}
+.left-text{
+    text-align: center;
+    display: flex;
+}
+.left-text span{
+    margin-right: 75px;
+}
+.right img {
+  margin-right: 3%;
+  /* margin-left: 35%; */
+  height: 120px;
+  margin-top: 18%;
+}
+.right{
+    line-height: 4;
+    text-align: right;
+    width: 17%;
+    margin-right: 6%;
+/* margin: auto; */
+}
+.right .icons{
+    display: flex;
+}
+.right i{
+    font-size: large;
+    margin-right: 10%;
+}
+
+
+
+
+
+.flag{
+    text-align: right;
+}
+
+.outer{
+    background-image: url(./images/banner.jpg);
+    min-height: 200vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+
+.box2{
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 5%;
+    background: white;
+    width: 92%;
+    /* display: flex; */
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 2rem;
+}
+hr{
+    margin: auto;
+}
+.shadow {
+    -moz-box-shadow:    inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow:         inset 0 0 15px #000000;
+ }
+ th{
+    width: 25%;
+ }
+
+
+
+ .first{
+  display: flex; width: 92%;justify-content: space-between;
+ }
+ .second{
+  /* display: flex; */
+  width: 92%;
+  justify-content: space-between;
+ }
+ .second div{
+  margin-left: 5%;
+  margin-bottom: 3%;
+ }
+ .second .text{
+  width: 68%;
+ }
+ .third{
+  width: 92%;
+  justify-content: space-between;
+ }
+ .third div{
+  /* display: flex; */
+   margin-left: 5%;
+  margin-bottom: 3%;
+ }
+ .third ul{
+  padding: 0;
+  display: flex;
+ }
+.third ul li{
+  font-size: medium;
+  /* display: inline; */
+  margin-left: 2%;
+  margin-right: 5%;
+  list-style-type: circle;
+}
